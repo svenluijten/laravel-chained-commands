@@ -9,7 +9,7 @@ jobs:
         name: Run PHPStan analysis
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3.5.3
+            - uses: actions/checkout@v4.0.0
 
             - name: Configure PHP
               uses: shivammathur/setup-php@v2
